@@ -1,4 +1,4 @@
-"use client"; // this is a client component 👈🏽
+"use client";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillFacebook, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
@@ -16,7 +16,6 @@ import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40">
@@ -28,7 +27,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
               </li>
               <li className="flex">
-                <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-2 px-4 rounded-[4px]">
+                <a href='nayanResume.pdf' target="_blank" download={true} className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-2 px-4 rounded-[4px]">
                   Resume
                 </a>
               </li>
