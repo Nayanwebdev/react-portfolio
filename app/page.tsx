@@ -17,7 +17,7 @@ import { useState } from "react";
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
 
-    return (
+    return (        
         <div className={darkMode ? "dark bg-gray-900 text-white" : "light"}>
             <main className=" px-10 md:px-20 lg:px-40">
                 <section className="pb-10">
