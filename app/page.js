@@ -72,7 +72,7 @@ export default function Home() {
               <p className="py-2"> Do you have an idea for your next great website? Lets make it a reality. </p>
               <h4 className="py-4 text-blue-600">languages I use for Web Designing</h4>
               <div className="flex justify-center gap-x-3 gap-y-1 flex-wrap">
-                <p className="text-grey-800">HTM5</p>
+                <p className="text-grey-800">HTML5</p>
                 <p className="text-grey-800">CSS3</p>
                 <p className="text-grey-800">Jquery</p>
                 <p className="text-grey-800">Javascript</p>
